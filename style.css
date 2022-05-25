@@ -20,8 +20,12 @@ h1 {
 p {
     text-align: center;
 }
-h3, h4 {
+
+h3, h5 {
     color: white;
+}
+h5 {
+    font-weight: normal;
 }
 a {
     text-decoration: none;
@@ -38,10 +42,10 @@ a {
 }
 .item {
     display: flex;
-    border: 1px solid #d9d9d8;
     margin-bottom: 40px;
-
+    box-shadow: 0px 0px 4px 3px #d8d8d7;
 }
+
 .item-flex-1 {
     display: flex;
     height: 100px;
