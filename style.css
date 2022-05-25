@@ -4,3 +4,31 @@
     margin: 0;
     padding: 0;
 }
+
+/* commons */
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+header, main {
+    width: 60%;
+    margin: 30px auto;
+}
+
+/* layout */
+.container-flex {
+    display: flex;
+
+}
+.item {
+    display: flex;
+
+}
+.item-flex-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+
+
+}
