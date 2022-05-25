@@ -9,26 +9,51 @@
 body {
     font-family: 'Fredoka', sans-serif;
 }
-
 header, main {
-    width: 60%;
+    width: 75%;
     margin: 30px auto;
+}
+h1 {
+    color: #e54071;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+h3, h4 {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: #66c5eb;
 }
 
 /* layout */
 .container-flex {
+    margin-top: 40px;
     display: flex;
+    flex-wrap: wrap;
 
 }
 .item {
     display: flex;
+    border: 1px solid #d9d9d8;
+    margin-bottom: 40px;
+    margin-right: 30px;
+
+}
+.item-flex-1 {
+    display: flex;
+    height: 100px;
 
 }
 .item-flex-2 {
+    background-color: #0f0e17;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-     
+    justify-content: space-evenly;
+    padding-right: 70px;
+    padding-left: 15px;
 
 
 }
